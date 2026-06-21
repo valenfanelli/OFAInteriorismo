@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../img/OFA.jpeg';
+import logoCream from '../img/peacock-cream.png';
+import logoMalbec from '../img/peacock-malbec.png';
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -21,7 +22,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${isLightPage ? 'navbar-light' : ''}`}>
       <Link to="/" className="navbar-logo">
-        <img src={logo} alt="OFA Studio" />
+        <img src={isLightPage ? logoMalbec : logoCream} alt="OFA Interiorismo" />
       </Link>
       <ul className={`navbar-links ${menuOpen ? 'open' : ''}`}>
         <li><Link to="/" onClick={() => setMenuOpen(false)}>Inicio</Link></li>

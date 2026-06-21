@@ -14,8 +14,8 @@ function Contacto() {
           </p>
           <ul className="contacto-details">
             <li><strong>Telefono:</strong> +1 (111) 111-1111</li>
-            <li><strong>Email:</strong> info@ofastudio.com</li>
-            <li><strong>Instagram:</strong> <a href="#" target="_blank" rel="noopener noreferrer" className="contacto-link">@ofastudio</a></li>
+            <li><strong>Email:</strong> info@ofainteriorismo.com</li>
+            <li><strong>Instagram:</strong> <a href="#" target="_blank" rel="noopener noreferrer" className="contacto-link">@ofainteriorismo</a></li>
           </ul>
         </div>
 

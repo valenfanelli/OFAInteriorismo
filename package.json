@@ -1,8 +1,8 @@
 {
-  "name": "ofa-studio",
+  "name": "ofa-interiorismo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://valenfanelli.github.io/OFAStudio",
+  "homepage": "https://valenfanelli.github.io/OFAInteriorismo",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
